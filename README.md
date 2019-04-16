@@ -25,7 +25,7 @@ Two reasons. I'll give the short then the long.
 On one go look at a repo like this:
 https://github.com/pivotal-cf/pcf-pipelines/tree/master/install-pcf/vsphere/tasks
 
-Fairly gnarly bash scripts that are all intended to be run via concourse. Well that's great if you worked with cloud foundry for x amount of years and know exactly what all the intermittent bits and bobs do, but if you don't know all the moving parts, whats the first thing you want to do? Break it down into its parts and see ow they work. With the prior I have a bunch stuff I have to manually go interpolate and try to pull out and understand. Not Fun.
+Fairly gnarly bash scripts that are all intended to be run via concourse. Well that's great if you worked with cloud foundry for x amount of years and know exactly what all the intermittent bits and bobs do, but if you don't know all the moving parts, whats the first thing you want to do? Break it down into its parts and see how they work. With the prior I have a bunch stuff I have to manually go interpolate and try to pull out and understand. Not Fun.
 
 The other thing is if I just want to go grab a bit of a script now I can (you can also have a nice global functions file for that sorta thing if you do it a lot).
 
